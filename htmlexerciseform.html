@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM, Eventos y Funciones</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 250px;
+            float: left;
+            margin: 20px;
+        }
+        .dashed {
+            border: 3px dashed black;
+            padding: 4px;
+        }
+        .bigtext {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="#" method="" id="form" onsubmit="return false">
+            <label for="name">Name:</label> <br/>
+            <input type="text" name="name" placeholder="Enter your name here" id="name"> <br/>
+
+            <label for="name">Surnames:</label> <br/>
+            <input type="text" name="surnames" placeholder="Enter your surnames here" id="surnames"> <br/>
+
+            <label for="age">Age:</label> <br/>
+            <input type="number" name="age" placeholder="Enter your age here" id="age"> <br/>
+
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+
+    <div class="box dashed">
+        <h3 class="bigtext">Information of the User</h3>
+        <hr/>
+    </div>
+    <script src="exerciseform.js"></script>
+</body>
+</html>
